@@ -1,2 +1,4 @@
 # Dashboard-Content-Aggrigation
-A simple content aggrigator
+1) -> Content Aggrigation  
+    |-> Data Extraction
+    |-> Display on a web page 
