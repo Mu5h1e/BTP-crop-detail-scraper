@@ -36,7 +36,7 @@ telangana_districts[27] = "Warangal%20Rural"
 
 def download_file(download_url, filename):
     response = urllib.request.urlopen(download_url+filename+'.pdf')
-    doc = open(filename+".pdf", 'wb')
+    doc = open("./district_data/"+filename+".pdf", 'wb')
     doc.write(response.read())
     doc.close()
     return doc
